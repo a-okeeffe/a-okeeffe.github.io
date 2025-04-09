@@ -6,11 +6,21 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 .container {
-    display: inline-grid;
+    display: inline;
     padding: 10px;
+    float:inline-start;
 }
 .pfp_wrap {
     background-color: rgb(33, 46, 113);
     padding: 10px;
     border-radius: 15%;
+    float: left;
+}
+.summary {
+    background-color: rgb(33, 46, 113);
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    float: left;
+    
 }
