@@ -19,33 +19,39 @@ h1 {
     display: inline;
 }
 .container {
-    display: block;
+    display: grid;
     padding: 10px 10px 10px 100px;
-    float:inline-start;
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .pfp_wrap {
+    display: block;
     background-color: rgb(33, 46, 113);
-    padding: 20px;
+    padding: 5px;
     border-radius: 15%;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 .buttons {
     /*background-color: rgb(33, 46, 113);*/
     /*border-radius: 20px;*/
     display: grid;
     margin-left: 20px;
-    padding: 0px 20px 10px 20px;
-    float: left;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .buttons a {
     font-size: x-large;
-    padding: 15px 20px 15px 20px;
+    padding: 5px 20px 5px 20px;
     background-color: rgb(33, 46, 113);
     border-radius: 20px;
     color: rgb(126, 158, 240);
     font-family: 'Courier New', Courier, monospace;
-    margin: 15px 10px 15px 10px;
+    margin: 5px 10px 5px 10px;
     text-decoration: none;
 }
 .buttons a:hover{
