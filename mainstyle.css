@@ -4,6 +4,7 @@ body {
 p {
     color: rgb(126, 158, 240);
     font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 a {
     color: rgb(126, 158, 240);
@@ -14,9 +15,14 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     color: rgb(61, 82, 175);
+    margin-right: auto;
+    margin-left: auto;
+}
+img {
+    margin: 1%;
 }
 .banner {
-    display: inline;
+    display: block;
 }
 .container {
     display: grid;
@@ -63,9 +69,11 @@ h1 {
     height: 50px;
     width: 50px;
     background-color: rgb(126, 158, 240);
-    display: block;
     margin: 2px;
     padding-top: 10px;
+    float: left;
+    vertical-align: top;
+    border-radius: 20%;
 }
 .menu_icon:hover {
     background-color: rgb(72, 95, 211);
